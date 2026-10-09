@@ -1,0 +1,4 @@
+interface:
+  display_name: "Gaia Brand"
+  short_description: "Gaia identity, UI, illustration, motion, and voice"
+  default_prompt: "Use $gaia-brand to create this in Gaia's visual style and voice, with the bundled tokens and artwork."

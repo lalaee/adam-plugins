@@ -8,6 +8,12 @@
   },
   "plugins": [
     {
+      "name": "gaia-brand",
+      "description": "Gaia's actual brand system for UI, websites, illustrations, motion, and voice. MIT instructions; reserved brand assets.",
+      "source": "./plugins/gaia-brand",
+      "category": "design"
+    },
+    {
       "name": "frontend-design-director",
       "description": "Route, design, build, and critique distinctive marketing sites using archetype-specific frontend direction.",
       "source": "./plugins/frontend-design-director",

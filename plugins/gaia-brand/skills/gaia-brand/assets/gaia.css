@@ -1,0 +1,84 @@
+/* Gaia brand reference. Identity assets reserved; font licenses in fonts/. */
+@font-face{font-family:'Figtree';font-weight:400 500;font-style:normal;font-display:swap;src:url('./fonts/figtree-latin.woff2') format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+2000-206F,U+20AC,U+2122;}
+@font-face{font-family:'Figtree';font-weight:400 500;font-style:normal;font-display:swap;src:url('./fonts/figtree-latin-ext.woff2') format('woff2');unicode-range:U+0100-02BA,U+02BD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20C4,U+2C60-2C7F,U+A720-A7FF;}
+@font-face{font-family:'Inter';font-weight:400 500;font-style:normal;font-display:swap;src:url('./fonts/inter-latin.woff2') format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+2000-206F,U+20AC,U+2122;}
+@font-face{font-family:'Inter';font-weight:400 500;font-style:normal;font-display:swap;src:url('./fonts/inter-latin-ext.woff2') format('woff2');unicode-range:U+0100-02BA,U+02BD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20C4,U+2C60-2C7F,U+A720-A7FF;}
+:root, [data-gaia-theme="light"]{
+  --gaia-canvas: #F2F2ED;
+  --gaia-surface: #DBDBCF;
+  --gaia-surface-raised: #D4D5C4;
+  --gaia-surface-sunken: #E3E5D8;
+  --gaia-surface-inverse: #1D1D1B;
+  --gaia-scrim: rgba(29, 29, 27, 0.42);
+  --gaia-glass-fill: rgba(255,255,255,0.34);
+  --gaia-glass-edge: rgba(255,255,255,0.62);
+  --gaia-glass-shade: rgba(104,110,78,0.10);
+  --gaia-glass-sheen: rgba(255,255,255,0.05);
+  --gaia-glass-shadow: rgba(70,74,50,1);
+  --gaia-text-primary: #1D1D1B;
+  --gaia-text-secondary: #5A5B48;
+  --gaia-text-tertiary: #76785E;
+  --gaia-text-disabled: #8E9082;
+  --gaia-text-on-accent: #1D1D1B;
+  --gaia-border-subtle: rgba(104, 110, 78, 0.10);
+  --gaia-border-default: rgba(104, 110, 78, 0.18);
+  --gaia-border-strong: rgba(104, 110, 78, 0.34);
+  --gaia-accent-solid: #FEE951;
+  --gaia-accent-pressed: #F2DB3C;
+  --gaia-accent-muted: #FEF3A8;
+  --gaia-accent-text: #1D1D1B;
+  --gaia-accent-cream: #FCF6E0;
+  --gaia-action-solid: #45502B;
+  --gaia-action-pressed: #38421F;
+  --gaia-text-on-action: #F2F2ED;
+  --gaia-focus-ring: #1D1D1B;
+  --gaia-success: #3D5A2A;
+  --gaia-success-muted: #BFD3A6;
+  --gaia-warning: #6B5313;
+  --gaia-warning-muted: #E8D89B;
+  --gaia-danger: #7E3327;
+  --gaia-danger-muted: #E0B3AB;
+  --gaia-chart-mark: #45502B;
+  --gaia-chart-track: #E3E5D8;
+  --gaia-ground: linear-gradient(160deg, rgba(176,184,182,0.06), rgba(255,255,255,0.14)), linear-gradient(to bottom, #F6F7F4 0%,#EDEFEC 14.000000000000002%,#F0F1EC 30%,#F3F2EB 45%,#F3F2EA 62%,#EEF0E4 78%,#EBEEE1 90%,#F2F4EA 100%);
+}
+[data-gaia-theme="dark"]{
+  --gaia-canvas: #1A1B13;
+  --gaia-surface: #484936;
+  --gaia-surface-raised: #6C6E53;
+  --gaia-surface-sunken: #2B2C20;
+  --gaia-surface-inverse: #E3E5D8;
+  --gaia-scrim: rgba(0, 0, 0, 0.66);
+  --gaia-glass-fill: rgba(255,255,255,0.14);
+  --gaia-glass-edge: rgba(255,255,255,0.20);
+  --gaia-glass-shade: rgba(0,0,0,0.40);
+  --gaia-glass-sheen: rgba(255,255,255,0.055);
+  --gaia-glass-shadow: rgba(0,0,0,1);
+  --gaia-text-primary: #F2F2ED;
+  --gaia-text-secondary: #DBDBCF;
+  --gaia-text-tertiary: #A9AB9D;
+  --gaia-text-disabled: #76785E;
+  --gaia-text-on-accent: #1D1D1B;
+  --gaia-border-subtle: rgba(239, 238, 230, 0.08);
+  --gaia-border-default: rgba(239, 238, 230, 0.14);
+  --gaia-border-strong: rgba(239, 238, 230, 0.26);
+  --gaia-accent-solid: #FEE951;
+  --gaia-accent-pressed: #F2DB3C;
+  --gaia-accent-muted: rgba(254, 233, 81, 0.16);
+  --gaia-accent-text: #FEE951;
+  --gaia-accent-cream: #E6DFC3;
+  --gaia-action-solid: #C6C7B2;
+  --gaia-action-pressed: #6C6E53;
+  --gaia-text-on-action: #1A1B13;
+  --gaia-focus-ring: #FEE951;
+  --gaia-success: #A8C98C;
+  --gaia-success-muted: rgba(168, 201, 140, 0.16);
+  --gaia-warning: #DFC77A;
+  --gaia-warning-muted: rgba(223, 199, 122, 0.16);
+  --gaia-danger: #D89C90;
+  --gaia-danger-muted: rgba(216, 156, 144, 0.16);
+  --gaia-chart-mark: #DBDBCF;
+  --gaia-chart-track: #2B2C20;
+  --gaia-ground: linear-gradient(160deg, rgba(0,0,0,0.30), rgba(255,255,255,0.05)), linear-gradient(to bottom, #1B1F13 0%,#181C11 38%,#15190E 72%,#11150A 100%);
+}
+:root{--gaia-gutter:16px;--gaia-inset:24px;--gaia-gap:16px;--gaia-group-gap:32px;--gaia-radius:24px;}

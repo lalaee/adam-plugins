@@ -11,6 +11,7 @@ claude plugin marketplace add adamperlis/adam-plugins
 claude plugin install frontend-design-director@adam-plugins
 claude plugin install video-skills@adam-plugins
 claude plugin install ui-motion@adam-plugins
+claude plugin install gaia-brand@adam-plugins
 ```
 
 ### Codex / ChatGPT Desktop
@@ -25,6 +26,7 @@ Then open the Plugins Directory and install the plugin bundles you want from the
 
 | Plugin | Skills | What it does |
 |---|---:|---|
+| [`gaia-brand`](plugins/gaia-brand/README.md) | 1 | Gaia Baby Tracker's actual themes, typography, illustrations, motion, and voice. MIT instructions; reserved brand assets. |
 | `frontend-design-director` | 1 | Routes marketing/frontend work by site archetype, then applies evidence-backed composition, motion, typography, and quality gates. |
 | `ui-motion` | 3 | Kinetic typography heroes, scroll-linked blur manifesto transitions, and a finger-smeared thermal shader field. |
 | `design-constraints` | 1 | Designs UI with explicit spatial and typographic constraints instead of letting the model guess. |
