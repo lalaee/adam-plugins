@@ -21,7 +21,7 @@ Add this marketplace using the repository's [installation instructions](../../RE
 - Claude Code: ask it to use the Gaia Brand skill, or invoke its installed skill command.
 - Other agents: read [SKILL.md](skills/gaia-brand/SKILL.md) and the relevant linked references.
 
-[Read the skill](skills/gaia-brand/SKILL.md) · [Brand board source](skills/gaia-brand/assets/brand-board.html) · [Static brand board](skills/gaia-brand/assets/brand-board.svg)
+[Read the skill](skills/gaia-brand/SKILL.md) · [App demo](demo/README.md) · [Brand board source](skills/gaia-brand/assets/brand-board.html) · [Static brand board](skills/gaia-brand/assets/brand-board.svg)
 
 The brand board is a visual reference, not an app screenshot. Check product claims against the actual release.
 
