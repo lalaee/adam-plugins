@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Gaia App Demo</title>
+  <meta name="description" content="A browser prototype of a Gaia baby log, built from the gaia-brand skill's tokens, fonts and drawings. Demo data only.">
+  <!-- Everything brand-specific comes straight from the skill package. -->
+  <link rel="stylesheet" href="../skills/gaia-brand/assets/gaia.css">
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <div class="phone" id="phone">
+    <main class="screen" id="screen" tabindex="-1" aria-live="polite"></main>
+
+    <nav class="tabbar" aria-label="Main">
+      <button class="tab" data-tab="activity" aria-label="Activity"><span class="tab-icon" data-icon="activity"></span><span class="tab-label">Activity</span></button>
+      <button class="tab" data-tab="history" aria-label="History"><span class="tab-icon" data-icon="history"></span><span class="tab-label">History</span></button>
+      <button class="tab" data-tab="trends" aria-label="Trends"><span class="tab-icon" data-icon="trends"></span><span class="tab-label">Trends</span></button>
+      <button class="tab" data-tab="growth" aria-label="Growth"><span class="tab-icon" data-icon="growth"></span><span class="tab-label">Growth</span></button>
+      <button class="tab" data-tab="account" aria-label="Account"><span class="tab-icon" data-icon="account"></span><span class="tab-label">Account</span></button>
+    </nav>
+
+    <div class="scrim" id="scrim" hidden></div>
+    <section class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="sheet-title" hidden></section>
+    <div class="toast" id="toast" role="status" hidden></div>
+  </div>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
